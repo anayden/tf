@@ -4,6 +4,6 @@ configure do
   set :bind, '0.0.0.0'
 end
 
-get '/ping' do
-  'pong'
+get '/health_check' do
+  'success'
 end
